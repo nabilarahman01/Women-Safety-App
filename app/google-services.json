@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "658252785297",
+    "project_id": "sheroes-ce0e7",
+    "storage_bucket": "sheroes-ce0e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658252785297:android:a41d43a654be7f4916c130",
+        "android_client_info": {
+          "package_name": "com.example.nmsheroes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658252785297-dor13ndvprpv03jo98a8puatffckhub3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nmsheroes",
+            "certificate_hash": "ea16e51f065375e3d44c1ae1c20029caaeaea7bd"
+          }
+        },
+        {
+          "client_id": "658252785297-et980pmcu843vcokag9hf5i11vcma621.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe294zK_Noyg9VAa9otaJed3C6xICHYiY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658252785297-et980pmcu843vcokag9hf5i11vcma621.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

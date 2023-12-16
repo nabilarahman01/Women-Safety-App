@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:src="@drawable/faded" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HELPLINE NUMBERS"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:textSize="35dp"
+        android:fontFamily="serif"
+        android:background="@color/black"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency Helpline: 999"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:textSize="24dp"
+        android:fontFamily="serif"
+        android:background="@color/grey"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Women Safety Helpline: 10921"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+        android:textSize="24dp"
+        android:fontFamily="serif"
+        android:background="@color/grey"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Police Helpline: 100"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:textSize="24dp"
+        android:fontFamily="serif"
+        android:background="@color/grey"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RAB Helpline: 100"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="470dp"
+        android:textSize="24dp"
+        android:fontFamily="serif"
+        android:background="@color/grey"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fire Service Hotline: 102"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="540dp"
+        android:textSize="24dp"
+        android:fontFamily="serif"
+        android:background="@color/grey"
+        android:textColor="@color/white"/>
+
+
+
+</RelativeLayout>

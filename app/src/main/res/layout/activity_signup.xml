@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:src="@drawable/faded" />
+
+    <TextView
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="150dp"
+        android:text= "sign up"
+        android:textAllCaps="true"
+        android:textSize="40dp"
+        android:fontFamily="serif"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="260dp"
+        android:text= "Full Name:"
+        android:textAllCaps="true"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="210dp"
+        android:layout_height="33dp"
+        android:layout_toRightOf="@id/first"
+        android:layout_marginTop="260dp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/last"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="310dp"
+        android:text= "Age:"
+        android:textAllCaps="true"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="305dp"
+        android:layout_height="33dp"
+        android:layout_toRightOf="@id/last"
+        android:layout_marginTop="310dp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="360dp"
+        android:text= "Email:"
+        android:textAllCaps="true"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_width="272dp"
+        android:layout_height="33dp"
+        android:layout_toRightOf="@id/name"
+        android:layout_marginTop="360dp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="410dp"
+        android:text= "Password:"
+        android:textAllCaps="true"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/edit4"
+        android:layout_width="216dp"
+        android:layout_height="33dp"
+        android:layout_toRightOf="@id/pass"
+        android:layout_marginTop="410dp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/con1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="460dp"
+        android:text= "emergency 1:"
+        android:textAllCaps="true"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/edit5"
+        android:layout_width="180dp"
+        android:layout_height="33dp"
+        android:layout_toRightOf="@id/con1"
+        android:layout_marginTop="460dp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/con2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="510dp"
+        android:text= "emergency 2:"
+        android:textAllCaps="true"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/edit6"
+        android:layout_width="180dp"
+        android:layout_height="33dp"
+        android:layout_toRightOf="@id/con2"
+        android:layout_marginTop="510dp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        />
+
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="580dp"
+        android:text="sign up"
+        android:textSize="18dp"
+        android:backgroundTint="@color/grey"
+        android:textColor="@color/black"
+        />
+    <!--<Button
+        android:id="@+id/back1"
+        android:layout_width="65dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/bg"
+        android:drawableLeft="@drawable/back"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:visibility="gone" />-->
+
+</RelativeLayout>
